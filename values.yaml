@@ -9,5 +9,10 @@ service:
   type: LoadBalancer
   port: 32000
 
-ingress:
-  enabled: false
+resources:
+  requests:
+    memory: "512Mi"
+    cpu: "250m"
+  limits:
+    memory: "1Gi"
+    cpu: "500m"

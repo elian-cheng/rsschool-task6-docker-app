@@ -5,7 +5,7 @@ metadata:
 spec:
   type: {{ .Values.service.type }}
   ports:
-    - port: 32000
-      targetPort: 32000
+    - port: {{ .Values.service.port }}
+      targetPort: {{ .Values.service.port }}
   selector:
     app: goals-app

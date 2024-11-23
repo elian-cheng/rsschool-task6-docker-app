@@ -1,5 +1,9 @@
 apiVersion: v2
-name: goals-app
-description: A Helm chart for deploying goals-app node.js
+name: elian-goals-app
+description: A Helm chart for deploying Goals app with AWS ECR
 version: 0.1.0
-appVersion: "1.0.0"
+appVersion: "0.1.0"
+maintainers:
+  - name: Olga Chernega
+    email: eliang.cheng@gmail.com
+    url: https://github.com/elian-cheng
