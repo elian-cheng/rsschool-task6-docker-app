@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: /goals-app
+  repository: 656732674839.dkr.ecr.eu-north-1.amazonaws.com/goals-app
   tag: latest
   pullPolicy: IfNotPresent
 
