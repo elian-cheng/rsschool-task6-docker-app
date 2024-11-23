@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: /goals-app
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 32000
+
+ingress:
+  enabled: false
